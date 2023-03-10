@@ -1,6 +1,6 @@
 # OdysseyCMS
 
-OdysseyCMS is a full-stack application that includes a Content Management System (CMS) serving the purpose of allowing users to create, update, and delete their travel experiences. The application also allows users to view the travel experiences of other users and leave comments.
+OdysseyCMS is a full-stack application that includes a Content Management System (CMS) serving the purpose of allowing users to create, update, and delete their travel experiences. The application also allows users to view the travel experiences of other users and leave git st
 
 ## Purpose
 
