@@ -12,6 +12,9 @@ The application uses JSONblob.com as a database to store and retrieve informatio
 
 For each entity and for each action of the CMS, the interface (i.e., index/detail/create/edit/delete web pages) has been implemented using an HTML template. jQuery has been used for DOM manipulation and events.
 
+## Tech
+...
+
 ## Installation
 
 OdysseyCMS requires ... v1.0.0+ to run.
