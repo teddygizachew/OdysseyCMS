@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "name": "Tedla Tafari",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    },
+    {
+        "name": "Lulseged Admasu",
+        "age": 22,
+        "gender": "male",
+        "email": "tedlaisstupid@gmail.com",
+        "phone": "859-750-8520"  
+    },
+    {
+      "name": "Teddy Gizachew",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    },
+    {
+      "name": "Tedla Tafari",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    },
+    {
+      "name": "Tedla Tafari",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    },
+    {
+      "name": "Tedla Tafari",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    },
+    {
+      "name": "Tedla Tafari",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    },
+    {
+      "name": "Tedla Tafari",
+      "age": 22,
+      "gender": "male",
+      "email": "tedlaisstupid@gmail.com",
+      "phone": "859-750-8520"  
+    }
+  ],
+  "orgs": [
+    {
+      "name": "Northern Kentucky University",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    },
+    {
+      "name": "AA club",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    },
+    {
+      "name": "ACM",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    },
+    {
+      "name": "NKU",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    },
+    {
+      "name": "NKU",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    },
+    {
+      "name": "NKU",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    },
+    {
+      "name": "NKU",
+      "Location": "Highland Heights, KY",
+      "Events": ["Community clean-up day", "Fundraiser", "Volunteer training", "Outreach event", "Service project"],
+      "type": "NGO",
+      "founded": 1956,
+      "website": "nku.edu"
+    }
+  ],
+  "events": [
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "second meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "third meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    },
+    {
+      "name": "first meeeting",
+      "location": "bangala district",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
+      "date": "03/09/2023",
+      "time": "4:00pm"
+    }
+  ]
+}
