@@ -43,6 +43,6 @@ For each entity, the following actions have been implemented:
 
 This project was completed by the following team:
 
-1. Lulseged Admasu - Back-end development, database integration, and documentation.
-2. Teddy Amare - Front-end development and HTML/CSS integration.
+1. Lulseged Admasu - Front-end/Back-end development and database integration.
+2. Teddy Amare - Front-end development and HTML/CSS integration, and documentation.
 3. Tedla Tafari jQuery integration and testing.
