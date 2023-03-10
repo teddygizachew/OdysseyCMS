@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: ;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+a, li {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.main__container {
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
+    width: 70vw;
+    text-align: center;
+}
+.main__container h1 {
+    margin-bottom: 5rem;
+}
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.entity {
+    margin: auto;
+    width: 90vw;
+}
+
+.users__list, 
+.events__list, 
+.orgs__list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem 0;
+}
+
+.entity .header {
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: white;
+
+    width: 15rem;
+
+    padding: 1rem 6rem 1rem 2rem;
+    box-shadow: 0 0 .5rem 0 #4a4a4a;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
