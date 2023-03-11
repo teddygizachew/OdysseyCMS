@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization detail</title>
+    
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b6798fcdf3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <a class="btn fixed" href="../orgs.html" data-description="Back"><i class="fa-solid fa-caret-left"></i></a>
+    <div class="container">
+
+        <div class="create">
+            <h1 class="title__audiowide">Create an Organization</h1>
+            <form class="form">
+                <div class="name">
+                    <label for="name">Name: </label>
+                    <input required type="text" id='name' name="name">
+                </div>
+                <div class="location">
+                    <label for="location">Location: </label>
+                    <input required type="text" id='location' name="location">
+                </div>
+                <div class="founded_date">
+                    <label for="founded_date">Founded Date: </label>
+                    <input required type="date" id='founded_date' name="founded_date">
+                </div>
+                <div class="type">
+                    <label for="type">Type: </label>
+                    <input required type="text" id='type' name="type">
+                </div>
+                <div class="website">
+                    <label for="website">Website: </label>
+                    <input required type="text" id='website' name="website"></input>
+                </div>
+                <div class="events">
+                  <label for="events">Events: </label>
+                  <textarea required type="text" id='events' name="events"></textarea>
+                </div>
+                <div class="mission_statement">
+                    <label for="mission_statement">Mission_statement: </label>
+                    <textarea required type="text" id='mission_statement' name="mission_statement"></textarea>
+                </div>
+                <div class="contact">
+                  <label for="contact">Contact: </label>
+                  <input required type="text" id='contact' name="contact"></input>
+                </div>
+                <div class="social_media_links">
+                  <label for="social_media_links">Social: </label>
+                  <textarea required type="text" id='social_media_links' name="social_media_links"></textarea>
+                </div>
+                <div class="logo">
+                  <label for="logo">Logo: </label>
+                  <input required type="text" id='logo' name="logo"></input>
+                </div>
+                <button class="submit btn__normal" type="submit" name="submit">Edit</button>
+            </form>
+        </div>
+        
+        
+    </div>
+    
+
+     <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script src="../../../assets/getAllURLParams.js"></script>
+    <script src="../../../assets/api.js"></script>
+    <script src="../../../assets/database.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        orgs.update(getAllUrlParams().event);
+    </script>
+</body>
+</html>
