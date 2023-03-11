@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../style.css">
+    
+    <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script defer src="../../../assets/getAllURLParams.js"></script>
+    <script src="../../../assets/api.js"></script>
+    <script src="../../../assets/database.js"></script>
+    <script src="app.js"></script>
+
+    
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b6798fcdf3.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <a class="btn fixed" href="../events.html" data-description="Back"><i class="fa-solid fa-caret-left"></i></a>
+    
+    <div class="create">
+        <h1 class="title__audiowide">Create an Event</h1>
+        <form class="form">
+            <div class="name">
+                <label for="name">Name: </label>
+                <input type="text" id='name' name="name">
+            </div>
+            <div class="location">
+                <label for="location">Location: </label>
+                <input type="text" id='location' name="location">
+            </div>
+            <div class="date">
+                <label for="date">Date: </label>
+                <input type="date" id='date' name="date">
+            </div>
+            <div class="time">
+                <label for="time">Time: </label>
+                <input type="time" id='time' name="time">
+            </div>
+            <div class="description">
+                <label for="description">Description: </label>
+                <textarea type="text" id='description' name="description"></textarea>
+            </div>
+            <div class="keywords">
+                <label for="keywords">keywords: </label>
+                <textarea type="text" id='keywords' name="keywords"></textarea>
+            </div>
+            <div class="organizer">
+                <label for="organizer">Organizer: </label>
+                <input type="text" id='organizer' name="org">
+            </div>
+            <button class="submit btn__normal" type="submit" name="submit">Create</button>
+        </form>
+    </div>
+    <script>
+	    quotes.create();
+    </script>
+</body>
+</html>
