@@ -102,8 +102,30 @@ a, li {
     right: 5rem;
     transform: translate(-50%);
 }
+.btn__normal {
+    font-size: 1.2rem;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    box-shadow: 0 0 .7rem 0 #212529a4;
+
+    font-size: 1rem;
+    font-family: var(--txt-font-electrolize);
+    font-weight: 600;
+    --size: 5rem;
+    width: var(--size);
+    height: calc(var(--size) /2);
+    line-height: calc(var(--size) /2);
+
+    text-align: center;
+
+    cursor: pointer;
+}
+.btn__normal:hover {
+    background-color: #ffffffbc;
+    box-shadow: 0 0 1.5rem 0 var(--txt-clr-black);
+    transition: all ease .3s;
+}
 .card {
-    background-color: white;
     box-shadow: 0 0 .5rem 0 #939393;
 
     width: 15rem;

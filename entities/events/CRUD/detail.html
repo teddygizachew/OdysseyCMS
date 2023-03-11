@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event detail</title>
     
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../style.css">
 
-    <script defer src="../../assets/getAllURLParams.js"></script>
+    <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script defer src="../../../assets/getAllURLParams.js"></script>
+    <script src="../../../assets/api.js"></script>
+    <script src="../../../assets/database.js"></script>
+    <script src="app.js"></script>
+
     <script defer src="detail.js" type="module"></script>
-
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/b6798fcdf3.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <a class="btn fixed" href="events.html" data-description="Back"><i class="fa-solid fa-caret-left"></i></a>
+    <a class="btn fixed" href="../events.html" data-description="Back"><i class="fa-solid fa-caret-left"></i></a>
     <div class="container">
 
         <div class="detail"></div>
