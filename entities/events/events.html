@@ -12,6 +12,14 @@
     <!-- custom js -->
     <script defer src="events.js" type="module"></script>
 
+    <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script defer src="../../assets/getAllURLParams.js"></script>
+    <script src="../../assets/api.js"></script>
+    <script src="../../assets/database.js"></script>
+    <script src="./CRUD/app.js"></script>
     
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/b6798fcdf3.js" crossorigin="anonymous"></script>   
@@ -23,6 +31,10 @@
         <div class="events__list"></div>
     </div>
     <a class="btn btn__right" data-description="Add" href="./CRUD/create.html"><i class="fa-solid fa-plus"></i></a>
+    
+    <script>
+        events.index()
+    </script>
     
 </body>
 </html>

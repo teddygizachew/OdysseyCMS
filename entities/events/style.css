@@ -70,7 +70,7 @@ span i {
 
 /* create page */
 .create {
-    margin: 5rem auto;
+    margin: 3rem auto;
     width: fit-content;
 }
 .create h1 {
@@ -90,6 +90,10 @@ span i {
     justify-content: space-between;
     gap: 0 1rem;
     width: 20rem;
+}
+.form >div label {
+    font-family: var(--txt-font-electrolize);
+    font-weight: 600;
 }
 .form > div input, 
 .form > div textarea {
