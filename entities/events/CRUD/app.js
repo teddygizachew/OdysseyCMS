@@ -1,4 +1,4 @@
-const quotes={
+const events={
 	documentID:'1083937811262095360',
 	index:function(){
 		document.getElementById('quotes').innerHTML='Loading quotes, please wait...';
@@ -56,8 +56,7 @@ const quotes={
 				description: description.value,
 				org: org.value,
 			}
-			console.log(newEvent)
-			events_database.create(quotes.documentID,newEvent);
+			events_database.create(events.documentID,newEvent);
 		});
 	},
 	update:function(index){
