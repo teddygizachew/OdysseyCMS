@@ -2,6 +2,8 @@
 
 OdysseyCMS is a full-stack application that includes a Content Management System (CMS) serving the purpose of allowing users to create, update, and delete their travel experiences. The application also allows users to view the travel experiences of other users and leave git st
 
+[![GitHub Super-Linter](https://github.com/teddygizachew/OdysseyCMS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## Purpose
 
 The purpose of this application is to allow users to share their travel experiences with others, as well as view the experiences of others. The CMS allows users to create, update, and delete their travel experiences, and leave comments on other users' experiences.
