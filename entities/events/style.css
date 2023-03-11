@@ -12,11 +12,25 @@
 .events__list {
     grid-template-columns: repeat(2, auto);
     width: 50rem;
+    margin-bottom: 3rem;
 }
 .card {
     width: 20rem;
 }
 
+.event__card {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem 0;
+
+    font-family: var(--txt-font-electrolize);
+}
+.event__card p {
+    color: var(--txt-clr-grey);
+}
+.event__card i {
+    padding-right: .5rem;
+}
 
 /* detail page*/
 .container {
@@ -38,6 +52,9 @@
 .detail h2 {
     text-align: center;
     margin-bottom: var(--mb-val);
+}
+.detail p {
+    word-wrap: break-word;
 }
 .time {
     display: flex;
@@ -68,9 +85,9 @@ span i {
 }
 
 
-/* create page */
+/* create/edit page */
 .create {
-    margin: 3rem auto;
+    margin: 1rem auto;
     width: fit-content;
 }
 .create h1 {
@@ -86,10 +103,10 @@ span i {
 }
 .form > div {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     gap: 0 1rem;
-    width: 20rem;
+    width: 25rem;
 }
 .form >div label {
     font-family: var(--txt-font-electrolize);
@@ -97,12 +114,18 @@ span i {
 }
 .form > div input, 
 .form > div textarea {
-    width: 10rem;
+    width: 15rem;
 
     border-radius: 4px;
-    padding: .5rem 3rem .5rem 1rem;
+    padding: .5rem 1rem;
 
     outline: none;
     border: none;
     border: 1px solid;
+
+    font-family: var(--txt-font-electrolize);
+  
+}
+.form > div textarea {
+    height: 5rem;
 }

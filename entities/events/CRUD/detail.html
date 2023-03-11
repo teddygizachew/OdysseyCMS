@@ -19,16 +19,16 @@
 
         <div class="detail"></div>
         <div class="btns">
-            <div class="btn" data-description="Delete"><i class="fa-solid fa-trash"></i></div>
-            <div class="btn" data-description="Edit"><i class="fa-solid fa-pen"></i></div>
+            <div class="btn" data-description="Delete" onclick="events_database.delete(events.documentID,getAllUrlParams().event)"><i class="fa-solid fa-trash"></i></div>
+            <a class="btn edit" data-description="Edit" href="edit.html"><i class="fa-solid fa-pen"></i></a>
         </div>
-        
     </div>
     
 
-     <!-- cdns and js -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
     <script src="../../../assets/getAllURLParams.js"></script>
     <script src="../../../assets/api.js"></script>
     <script src="../../../assets/database.js"></script>
@@ -36,6 +36,7 @@
 
     <script>
         events.detail(getAllUrlParams().event);
-    </script>
+        document.querySelector('.edit').href += `?event=${getAllUrlParams().event}`
+</script>
 </body>
 </html>
