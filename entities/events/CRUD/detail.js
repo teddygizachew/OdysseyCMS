@@ -1,8 +1,8 @@
-import data from '../../data.json' assert {type: "json"};
+import data from '../../../data.json' assert {type: "json"};
 
 let events = data.events
 
-// populate detail
+// populate the detail page
 function populate() {
 let detail = document.querySelector('.detail')
 
@@ -23,7 +23,5 @@ events[page_index].keyword.forEach(key => {
         <span><i class="fa-solid fa-hashtag"></i>${key}</span>
 `
 })
-
-
 }
 populate()

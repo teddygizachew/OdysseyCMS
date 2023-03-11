@@ -1,0 +1,214 @@
+{
+    "users": [
+      {
+        "id": "u-1",
+        "name": "Alice Johnson",
+        "age": 28,
+        "gender": "female",
+        "email": "alicejohnson@example.com",
+        "phone": "555-1234",
+        "occupation": "Software Engineer",
+        "bio": "I'm a passionate software engineer who loves solving complex problems and building innovative software solutions.",
+        "profile_pic": "https://example.com/profiles/alicejohnson.jpg",
+        "events_attending": ["e-1", "e-3", "e-5"]
+      },
+      {
+        "id": "u-2",
+        "name": "Bob Smith",
+        "age": 35,
+        "gender": "male",
+        "email": "bobsmith@example.com",
+        "phone": "555-5678",
+        "occupation": "Marketing Manager",
+        "bio": "I'm a results-driven marketing professional with a passion for creating and executing successful marketing campaigns.",
+        "profile_pic": "https://example.com/profiles/bobsmith.jpg",
+        "events_attending": ["e-2", "e-4", "e-5"]
+      },
+      {
+        "id": "u-3",
+        "name": "Charlie Brown",
+        "age": 42,
+        "gender": "male",
+        "email": "charliebrown@example.com",
+        "phone": "555-9012",
+        "occupation": "Sales Representative",
+        "bio": "I'm a dynamic and results-driven sales professional with a track record of exceeding sales targets.",
+        "profile_pic": "https://example.com/profiles/charliebrown.jpg",
+        "events_attending": ["e-3", "e-4", "e-5"]
+      },
+      {
+        "id": "u-4",
+        "name": "Daisy Hernandez",
+        "age": 25,
+        "gender": "female",
+        "email": "daisyhernandez@example.com",
+        "phone": "555-3456",
+        "occupation": "Graphic Designer",
+        "bio": "I'm a creative graphic designer with a passion for designing beautiful and functional designs that engage and inspire audiences.",
+        "profile_pic": "https://example.com/profiles/daisyhernandez.jpg",
+        "events_attending": ["e-1", "e-3", "e-5"]
+      },
+      {
+        "id": "u-5",
+        "name": "Ethan Lee",
+        "age": 30,
+        "gender": "male",
+        "email": "ethanlee@example.com",
+        "phone": "555-6789",
+        "occupation": "Financial Analyst",
+        "bio": "I'm a detail-oriented financial analyst with a strong background in financial modeling and analysis.",
+        "profile_pic": "https://example.com/profiles/ethanlee.jpg",
+        "events_attending": ["e-2", "e-4", "e-5"]
+      }
+    ],
+    "orgs": [
+        {
+            "id": "o-1",
+            "name": "Greenpeace",
+            "location": "Amsterdam, Netherlands",
+            "founded_date": "1971-09-15",
+            "type": "Non-governmental organization",
+            "website": "https://www.greenpeace.org",
+            "events": ["e-1", "e-2"],
+            "mission_statement": "Greenpeace is a global environmental organization that seeks to protect and conserve the natural world.",
+            "contact": "+31 20 718 2000",
+            "social_media_links": {
+                "twitter": "https://twitter.com/greenpeace",
+                "facebook": "https://www.facebook.com/greenpeace.international",
+                "instagram": "https://www.instagram.com/greenpeace"
+            },
+            "logo": "https://www.greenpeace.org/static/planet4-international-stateless/8ea8f489beeeb7e495ba6289f93b977ad4b18ae2/logo-greenpeace.png"
+        },
+        {
+            "id": "o-2",
+            "name": "Doctors Without Borders",
+            "location": "Geneva, Switzerland",
+            "founded_date": "1971-12-21",
+            "type": "Medical humanitarian organization",
+            "website": "https://www.doctorswithoutborders.org",
+            "events": ["e-3"],
+            "mission_statement": "Doctors Without Borders/Médecins Sans Frontières (MSF) works in nearly 70 countries providing medical aid to those most in need regardless of their race, religion, or political affiliation.",
+            "contact": "+41 (0) 22 849 8400",
+            "social_media_links": {
+                "twitter": "https://twitter.com/msf",
+                "facebook": "https://www.facebook.com/msf.english",
+                "instagram": "https://www.instagram.com/doctorswithoutborders"
+            },
+            "logo": "https://www.doctorswithoutborders.org/sites/default/files/styles/fullpage_width/public/msf_logo_3.png?itok=CHh-QXkE"
+        },
+        {
+            "id": "o-3",
+            "name": "Amnesty International",
+            "location": "London, United Kingdom",
+            "founded_date": "1961-05-28",
+            "type": "Human rights organization",
+            "website": "https://www.amnesty.org",
+            "events": ["e-4"],
+            "mission_statement": "Amnesty International is a global movement of people fighting injustice and promoting human rights.",
+            "contact": "+44 20 7413 5500",
+            "social_media_links": {
+                "twitter": "https://twitter.com/amnesty",
+                "facebook": "https://www.facebook.com/amnestyglobal",
+                "instagram": "https://www.instagram.com/amnesty"
+            },
+            "logo": "https://www.amnesty.org/static/ai-global-1.0.150/images/amnesty-logo.png"
+        },
+        {
+            "id": "o-7",
+            "name": "Women in Tech",
+            "location": "New York, NY",
+            "founded_date": "June 1, 2010",
+            "type": "Non-Profit",
+            "website": "https://www.womenintech.org",
+            "events": ["e-13", "e-14"],
+            "mission_statement": "To promote gender diversity and equality in the tech industry.",
+            "contact": {
+              "email": "info@womenintech.org",
+              "phone": "(555) 555-5555"
+            },
+            "social_media_links": [
+              "https://www.facebook.com/womenintech",
+              "https://www.instagram.com/womenintech",
+              "https://www.twitter.com/womenintech"
+            ],
+            "logo": "https://www.example.com/womenintech-logo.png"
+          },
+          {
+            "id": "o-8",
+            "name": "Animal Rescue League",
+            "location": "Chicago, IL",
+            "founded_date": "May 1, 2005",
+            "type": "Non-Profit",
+            "website": "https://www.animalrescueleague.org",
+            "events": ["e-15"],
+            "mission_statement": "To rescue and provide care for animals in need, and find them loving homes.",
+            "contact": {
+              "email": "info@animalrescueleague.org",
+              "phone": "(555) 555-5555"
+            },
+            "social_media_links": [
+              "https://www.facebook.com/animalrescueleague",
+              "https://www.instagram.com/animalrescueleague",
+              "https://www.twitter.com/animalrescueleague"
+            ],
+            "logo": "https://www.example.com/animalrescueleague-logo.png"
+          }
+    ],
+    "events": [
+        {
+            "id": "e-6",
+            "name": "Charity Fun Run",
+            "location": "Central Park",
+            "date": "2023-04-22",
+            "time": "10:00 AM",
+            "keywords": ["charity", "run", "health"],
+            "description": "Join us for our annual charity fun run, raising money for cancer research. The event includes a 5k race and a 10k race, with all proceeds going directly to the American Cancer Society.",
+            "organizer": "o-3",
+            "attendees": ["u-2", "u-3", "u-5"]
+          },
+          {
+            "id": "e-7",
+            "name": "International Food Festival",
+            "location": "Downtown",
+            "date": "2023-06-10",
+            "time": "12:00 PM",
+            "keywords": ["food", "culture", "music"],
+            "description": "Join us for a celebration of food from around the world! The International Food Festival features live music, cooking demonstrations, and of course, lots of delicious food.",
+            "organizer": "o-4",
+            "attendees": ["u-1", "u-4", "u-5"]
+          },
+          {
+            "id": "e-8",
+            "name": "Startup Pitch Competition",
+            "location": "Convention Center",
+            "date": "2023-07-15",
+            "time": "2:00 PM",
+            "keywords": ["entrepreneurship", "technology", "innovation"],
+            "description": "Watch as the top startup companies pitch their ideas to a panel of judges in hopes of winning a cash prize! This year's competition features some of the most innovative and exciting startups from around the world.",
+            "organizer": "o-5",
+            "attendees": ["u-2", "u-4"]
+          },
+          {
+            "id": "e-9",
+            "name": "Art Exhibit Opening",
+            "location": "Art Museum",
+            "date": "2023-09-02",
+            "time": "6:00 PM",
+            "keywords": ["art", "culture", "creativity"],
+            "description": "Join us for the opening of our newest art exhibit, featuring the work of local and international artists. The exhibit includes paintings, sculptures, and multimedia installations.",
+            "organizer": "o-1",
+            "attendees": ["u-1", "u-3", "u-5"]
+          },
+          {
+            "id": "e-10",
+            "name": "Charity Auction",
+            "location": "Grand Hotel Ballroom",
+            "date": "2023-11-12",
+            "time": "7:00 PM",
+            "keywords": ["charity", "auction", "community"],
+            "description": "Bid on unique and valuable items at our charity auction, benefiting local charities and non-profit organizations. The event includes a cocktail hour, silent auction, and live auction.",
+            "organizer": "o-2",
+            "attendees": ["u-2", "u-5"]
+          }                                             
+    ]
+}

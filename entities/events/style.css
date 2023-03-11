@@ -66,3 +66,39 @@ span i {
     gap: 0 7rem;
     margin-top: 4rem;
 }
+
+
+/* create page */
+.create {
+    margin: 5rem auto;
+    width: fit-content;
+}
+.create h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.form {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem 0;
+    flex-direction: column;
+}
+.form > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 1rem;
+    width: 20rem;
+}
+.form > div input, 
+.form > div textarea {
+    width: 10rem;
+
+    border-radius: 4px;
+    padding: .5rem 3rem .5rem 1rem;
+
+    outline: none;
+    border: none;
+    border: 1px solid;
+}

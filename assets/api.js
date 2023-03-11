@@ -1,7 +1,8 @@
 const api={
 	endpoint:'https://jsonblob.com/api/jsonBlob/',
 	GET:function(documentID,callback){
-		axios.get(`${api.endpoint}${documentID}`,{}).then(function(response){
+		axios.get(`${api.endpoint}${documentID}`,{})
+		.then((response) => {
 			callback(response);
 		}).catch(function(error){
 			console.log(error);
