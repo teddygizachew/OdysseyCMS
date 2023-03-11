@@ -1,3 +1,11 @@
+:root {
+    --bg-clr: #edf2f8;
+    --txt-clr-black: #000000;
+    --txt-clr-grey: #000000a6;
+    --title-clr: #212529;
+    --title-font-audiowide: "Audiowide", cursive;
+    --txt-font-electrolize: 'Electrolize', sans-serif;
+}
 .events {
     width: fit-content;
 }
@@ -11,30 +19,6 @@
 
 
 /* detail page*/
-.btn.fixed {
-    position: fixed;
-    top: 2rem;
-    left: 5rem;
-}
-.btn {
-    font-size: 1.2rem;
-    border: 1px solid #212529;
-    box-shadow: 0 0 .7rem 0 #21252958;
-    border-radius: 100%;
-
-    width: 2.5rem;
-    height: 2.5rem;
-    line-height: 2.5rem;
-
-    text-align: center;
-
-    cursor: pointer;
-}
-.btn:hover {
-    background-color: #ffffffbc;
-    box-shadow: 0 0 1.5rem 0 #21252958;
-    transition: all ease .3s;
-}
 .container {
     width: 100%;
     margin-top: 5rem;
