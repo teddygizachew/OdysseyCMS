@@ -20,7 +20,7 @@
         <div class="detail"></div>
         <div class="btns">
             <div class="btn" data-description="Delete"><i class="fa-solid fa-trash"></i></div>
-            <div class="btn" data-description="Edit"><i class="fa-solid fa-pen"></i></div>
+            <a class="btn edit" data-description="Edit" href="edit.html"><i class="fa-solid fa-pen"></i></a>
         </div>
         
     </div>
@@ -34,6 +34,7 @@
 
    <script>
        users.detail(getAllUrlParams().user);
+       document.querySelector('.edit').href += `?user=${getAllUrlParams().user}`
    </script>
 </body>
 </html>
