@@ -1,4 +1,4 @@
-name: Lint
+name: Linter
 
 on:
   # Trigger the workflow on push or pull request,
@@ -24,12 +24,13 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Install your linters here
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
-        with:
-          # Enable your linters here
-          prettier: true
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
