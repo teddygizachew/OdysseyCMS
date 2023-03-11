@@ -40,12 +40,15 @@ a, li {
 .orgs__list {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    place-items: center;
     gap: 1rem 0;
+    width: fit-content;
 }
 
 .entity .header {
     margin-bottom: 2rem;
     font-family: var(--title-font-audiowide);   
+    width: fit-content;
 }
 
 /* components / property classes*/
