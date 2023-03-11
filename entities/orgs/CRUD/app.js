@@ -25,8 +25,6 @@ const orgs={
 				<span><i class="fa-solid fa-sitemap"></i>${org.type}</span></br></br>
 				<span><i class="fa-solid fa-rocket"></i>${org.mission_statement}</span></br></br>
 
-				<p class="contact">${org.contact}</p></br></br>
-
 				<div class="time">
 					<span><i class="fa-solid fa-calendar-day"></i>${org.founded_date}</span>
 					<span class="location"><i class="fa-solid fa-location-dot"></i>${org.location}</span>
