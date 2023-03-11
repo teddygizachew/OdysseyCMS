@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Users</title>
     
+    <!-- custom css -->
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="style.css">
-    <script defer type="module" src="users.js"></script>
+    <!-- custom js -->
     
+
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/b6798fcdf3.js" crossorigin="anonymous"></script>   
 </head>
@@ -20,8 +23,22 @@
         <h1 class="header title__audiowide">Users</h1>
         <div class="users__list"></div>
     </div>
-    <div class="btn btn__right" data-description="Add"><i class="fa-solid fa-plus"></i></div>
+    <a class="btn btn__right" data-description="Add" href="./CRUD/create.html"><i class="fa-solid fa-plus"></i></a>
     
+
+    <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script  src="../../assets/getAllURLParams.js"></script>
+    <script src="../../assets/api.js"></script>
+    <script src="../../assets/database.js"></script>
+    <script src="./CRUD/app.js"></script>
+
+    <script>
+        users.index()
+    </script>
+
 </body>
 </html>
 
