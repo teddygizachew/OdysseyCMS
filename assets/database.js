@@ -12,7 +12,7 @@ const users_database={
 	update:function(documentID,index,newData){
 		api.GET(documentID,function(response){
 			response.data.users[index]=newData;
-			api.PUT(documentID,response.data.users,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been updated. Please go back to the home page');
 			});
 		});
@@ -20,7 +20,7 @@ const users_database={
 	delete:function(documentID,index){
 		api.GET(documentID,function(response){
 			response.data.users.splice(index,1);
-			api.PUT(documentID,response.data.users,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been deleted. Please go back to the home page');
 			});
 		});
@@ -28,7 +28,7 @@ const users_database={
 	create:function(documentID,newData){
 		api.GET(documentID,function(response){
 			response.data.users.push(newData);
-			api.PUT(documentID,response.data.users,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been added. Please go back to the home page');
 			});
 		});
@@ -51,7 +51,7 @@ const events_database={
 	update:function(documentID,index,newData){
 		api.GET(documentID,function(response){
 			response.data.events[index]=newData;
-			api.PUT(documentID,response.data.events,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been updated. Please go back to the home page');
 			});
 		});
@@ -59,7 +59,7 @@ const events_database={
 	delete:function(documentID,index){
 		api.GET(documentID,function(response){
 			response.data.events.splice(index,1);
-			api.PUT(documentID,response.data.events,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been deleted. Please go back to the home page');
 			});
 		});
@@ -67,7 +67,7 @@ const events_database={
 	create:function(documentID,newData){
 		api.GET(documentID,function(response){
 			response.data.events.push(newData);
-			api.PUT(documentID,response.data.events,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been added. Please go back to the home page');
 			});
 		});
@@ -91,7 +91,7 @@ const orgs_database={
 	update:function(documentID,index,newData){
 		api.GET(documentID,function(response){
 			response.data.orgs[index]=newData;
-			api.PUT(documentID,response.data.orgs,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been updated. Please go back to the home page');
 			});
 		});
@@ -99,7 +99,7 @@ const orgs_database={
 	delete:function(documentID,index){
 		api.GET(documentID,function(response){
 			response.data.orgs.splice(index,1);
-			api.PUT(documentID,response.data.orgs,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been deleted. Please go back to the home page');
 			});
 		});
@@ -107,7 +107,7 @@ const orgs_database={
 	create:function(documentID,newData){
 		api.GET(documentID,function(response){
 			response.data.orgs.push(newData);
-			api.PUT(documentID,response.data.orgs,function(){
+			api.PUT(documentID,response.data,function(){
 				alert('The quote has been added. Please go back to the home page');
 			});
 		});
