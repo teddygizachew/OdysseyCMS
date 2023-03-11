@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event detail</title>
+    
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b6798fcdf3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <a class="btn fixed" href="../users.html" data-description="Back"><i class="fa-solid fa-caret-left"></i></a>
+    <div class="container">
+
+        <div class="create">
+            <h1 class="title__audiowide">Edit User</h1>
+            <form class="form">
+                <div class="name">
+                    <label for="name">Name: </label>
+                    <input required type="text" id='name' name="name">
+                </div>
+                <div class="age">
+                    <label for="age">Age: </label>
+                    <input required type="number" id='age' name="age">
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender: </label>
+                    <input required type="text" id='gender' name="gender">
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input required type="text" id='email' name="email">
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone Number: </label>
+                    <input required type="text" id='phone' name="phone">
+                </div>
+                <div class="occupation">
+                    <label for="occupation">Occupation: </label>
+                    <input required type="text" id='occupation' name="occupation">
+                </div>
+                <div class="bio">
+                    <label for="bio">Short Bio: </label>
+                    <textarea required type="text" id='bio' name="bio"></textarea>
+                </div>
+                <div class="profile_pic">
+                    <label for="profile_pic">Profile Pic URL: </label>
+                    <input required type="text" id='profile_pic' name="profile_pic">
+                </div>
+                <button class="submit btn__normal" type="submit" name="submit">Edit</button>
+            </form>
+        </div>
+        
+        
+    </div>
+    
+
+     <!-- cdns and js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script src="../../../assets/getAllURLParams.js"></script>
+    <script src="../../../assets/api.js"></script>
+    <script src="../../../assets/database.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        users.update(getAllUrlParams().user);
+    </script>
+</body>
+</html>
