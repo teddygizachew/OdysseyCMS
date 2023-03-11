@@ -1,5 +1,5 @@
 {
-  "users": [
+  "users": [  
     {
       "name": "Tedla Tafari",
       "age": 22,
@@ -121,63 +121,57 @@
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
-    },
-    {
-      "name": "second meeeting",
-      "location": "bangala district",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
-      "date": "03/09/2023",
-      "time": "4:00pm"
-    },
-    {
-      "name": "third meeeting",
-      "location": "bangala district",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
-      "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     },
     {
       "name": "first meeeting",
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     },
     {
       "name": "first meeeting",
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     },
     {
       "name": "first meeeting",
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     },
     {
       "name": "first meeeting",
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     },
     {
       "name": "first meeeting",
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     },
     {
       "name": "first meeeting",
       "location": "bangala district",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus modi mollitia incidunt cum, doloremque earum unde sapiente saepe officiis aperiam provident fuga aliquam. Veniam facere obcaecati dolorum ab debitis.",
       "date": "03/09/2023",
-      "time": "4:00pm"
+      "time": "4:00pm",
+      "keyword": ["fun", "free food", "amazing", "free everything"]
     }
   ]
 }
+
