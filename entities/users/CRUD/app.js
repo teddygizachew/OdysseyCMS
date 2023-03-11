@@ -69,20 +69,44 @@ const users={
 		});
 	},
 	update:function(index){
-		database.detail(quotes.documentID,index,function(item){
-			document.getElementById('loading').style.display='none';
-			document.querySelector('form input[name=author]').value=item.author;
-			document.querySelector('form textarea[name=quote]').value=item.quote;
+		users_database.detail(users.documentID,index,function(item){
+			document.querySelector('form input[name=name]').value=item.name;
+			document.querySelector('form input[name=age]').value=item.age;
+			document.querySelector('form input[name=gender]').value=item.gender;
+			document.querySelector('form input[name=email]').value=item.email;
+			document.querySelector('form input[name=phone]').value=item.phone;
+			document.querySelector('form input[name=occupation]').value=item.occupation;
+			document.querySelector('form textarea[name=bio]').value=item.bio;
+			document.querySelector('form input[name=profile_pic]').value=item.profile_pic;
+
+	
 			
 			document.querySelector('form').addEventListener('submit',function(e){
 				e.preventDefault();
-				let author=document.querySelector('form input[name=author]');
-				let quote=document.querySelector('form textarea[name=quote]');
-				let newQuote={
-					author:author.value,
-					quote:quote.value
+				let name=document.querySelector('form input[name=name]');
+			let age=document.querySelector('form input[name=age]');
+			let gender=document.querySelector('form input[name=gender]');
+			let email=document.querySelector('form input[name=email]');
+			let phone=document.querySelector('form input[name=phone]');
+			let occupation=document.querySelector('form input[name=occupation]');
+			let bio=document.querySelector('form textarea[name=bio]');
+			let profile_pic=document.querySelector('form input[name=profile_pic]');
+
+				// generate id for event
+				let id = Math.floor(Math.random() * 854215);
+				let newUser={
+					id: `u-${id}`,
+					name: name.value,
+					age: age.value,
+					gender: gender.value,
+					email: email.value,
+					phone: phone.value,
+					occupation: occupation.value,
+					bio: bio.value,
+					profile_pic: profile_pic.value,
+					events_attending: " ",
 				}
-				database.update(quotes.documentID,index,newQuote);
+				users_database.update(users.documentID, index, newUser)
 			});
 		});
 	}
